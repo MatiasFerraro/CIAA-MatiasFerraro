@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="0.342130885">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.342130885" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" description="" id="0.342130885" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="0.342130885." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.1632681580" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
+							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.1632681580.278981172" name=""/>
+							<builder id="org.eclipse.cdt.build.core.settings.default.builder.251156332" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name=""/>
+								</outputEntries>
+							</builder>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.2019845788" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1546366914" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.561794299" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.697550000" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1305271347" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\CIAA\cygwin\usr\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\CIAA\cygwin\lib\gcc\i686-pc-cygwin\4.9.2\include\c++&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\CIAA\Firmware\drivers_bm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\CIAA\Firmware\externals\drivers\cortexM4\k60_120\inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\CIAA\Firmware\projects\ejemplo_uso_cmsisdsp_matrices\cmsis_dsp\BasicMathFunctions&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\CIAA\Firmware\projects\ejemplo_uso_cmsisdsp_matrices\cmsis_dsp\MatrixFunctions&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1694692700" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.386215952" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1703588720" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;C:\CIAA\cygwin\usr\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\CIAA\Firmware\drivers_bm&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\CIAA\Firmware\externals\drivers\cortexM4\k60_120\inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\CIAA\Firmware\projects\ejemplo_uso_cmsisdsp_matrices\cmsis_dsp\BasicMathFunctions&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\CIAA\Firmware\projects\ejemplo_uso_cmsisdsp_matrices\cmsis_dsp\MatrixFunctions&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.411601940" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="0.342130885.503733314" name="/" resourcePath="projects/ejemplo_uso_cmsisdsp_matrices/cmsis_dsp/ComplexMathFunctions">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.96117439" name="No ToolChain" superClass="org.eclipse.cdt.build.core.prefbase.toolchain" unusedChildren="">
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.1945845180" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs.2019845788"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.850312065" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder.1546366914">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1584252561" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.219602292" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder.697550000">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.990152130" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1188011870" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.386215952">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1757846408" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="0.342130885.1200662318" name="ejemplo_cmsisdsp_matrices.c" rcbsApplicability="disable" resourcePath="projects/ejemplo_uso_cmsisdsp_matrices/src/ejemplo_cmsisdsp_matrices.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.386215952.326590776">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.386215952.326590776" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.1546366914">
+							<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.2083479859" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+								<listOptionValue builtIn="false" value="&quot;C:\CIAA\cygwin\usr\include&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;C:\CIAA\Firmware\drivers_bm&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;C:\CIAA\Firmware\externals\drivers\cortexM4\k60_120\inc&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;C:\CIAA\Firmware\projects\ejemplo_uso_cmsisdsp_matrices\cmsis_dsp\BasicMathFunctions&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;C:\CIAA\Firmware\projects\ejemplo_uso_cmsisdsp_matrices\cmsis_dsp\MatrixFunctions&quot;"/>
+							</option>
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.42185652" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="0.342130885.701271195" name="cr_startup_lpc43xx.c" rcbsApplicability="disable" resourcePath="externals/drivers/cortexM4/lpc43xx/src/cr_startup_lpc43xx.c" toolsToInvoke="org.eclipse.cdt.build.core.settings.holder.386215952.256923775">
+						<tool id="org.eclipse.cdt.build.core.settings.holder.386215952.256923775" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.1546366914">
+							<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1430770017" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+								<listOptionValue builtIn="false" value="&quot;C:\CIAA\cygwin\usr\include&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;C:\CIAA\Firmware\drivers_bm&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;C:\CIAA\Firmware\externals\drivers\cortexM4\k60_120\inc&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;C:\CIAA\Firmware\projects\ejemplo_uso_cmsisdsp_matrices\cmsis_dsp\BasicMathFunctions&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;C:\CIAA\Firmware\projects\ejemplo_uso_cmsisdsp_matrices\cmsis_dsp\MatrixFunctions&quot;"/>
+							</option>
+							<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.745132476" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+						</tool>
+					</fileInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Firmware.null.1369880670" name="Firmware"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="0.602548587">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="0.342130885">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/Firmware"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>
