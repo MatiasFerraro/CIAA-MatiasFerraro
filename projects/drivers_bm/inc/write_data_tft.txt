@@ -1,0 +1,67 @@
+void  write_data(uint8_t dato)
+{
+	//uint8_t str[2];
+	port_pin(4,9, disable, low);  //cs=0
+	port_pin(4,10, disable, high);//dc=1
+	//sprintf ( str , "% X" , dato );
+	xf_setup.length = BUFFER_SIZE;
+    xf_setup.rx_data = Rx_Buf;
+	xf_setup.rx_cnt = xf_setup.tx_cnt = 0;
+	xf_setup.tx_data= dato;
+	Chip_SSP_Enable(LPC_SSP);
+	Chip_SSP_RWFrames_Blocking(LPC_SSP, &xf_setup);
+	// SSP_Write1BFifo(LPC_SSP, &xf_setup);
+	port_pin(4,9, disable, high);//cs=1
+	//Chip_SSP_Disable(LPC_SSP);
+}
+
+
+void  write_command(uint8_t dato)
+{
+	//uint8_t str[2];
+	port_pin(4,9, disable, low);//cs=0
+	port_pin(4,10, disable, low);//dc=0
+
+	//sprintf ( str , "% X" , dato );
+	xf_setup.length = BUFFER_SIZE;
+	xf_setup.rx_data = Rx_Buf;
+    xf_setup.rx_cnt = xf_setup.tx_cnt = 0;
+    xf_setup.tx_data= dato;
+    Chip_SSP_Enable(LPC_SSP);
+    //SSP_Write1BFifo(LPC_SSP,&xf_setup);
+
+    Chip_SSP_RWFrames_Blocking(LPC_SSP, &xf_setup);
+    //Chip_SSP_Disable(LPC_SSP);
+    port_pin(4,9, disable, high);//cs=1
+
+}
+void wr_com16(uint8_t dato1,uint8_t dato2)
+{
+	//write_data(dato1);
+	//write_data(dato2);
+	//uint8_t str[2];
+    port_pin(4,9, disable, low);//cs=0
+	port_pin(4,10, disable, high);//dc=1
+	//sprintf ( str , "% X" , str );
+	xf_setup.length = BUFFER_SIZE;
+	xf_setup.rx_data = Rx_Buf;
+	xf_setup.rx_cnt = xf_setup.tx_cnt = 0;
+	xf_setup.tx_data = dato1;
+
+	//Chip_SSP_Enable(LPC_SSP);
+	Chip_SSP_RWFrames_Blocking(LPC_SSP, &xf_setup);
+	//Chip_SSP_Disable(LPC_SSP);
+	port_pin(4,9, disable, high);//cs=0
+
+	port_pin(4,9, disable, low);//cs=1
+	port_pin(4,10, disable, high);//dc=1
+	//sprintf ( str , "% X" , str );
+	xf_setup.length = BUFFER_SIZE;
+    xf_setup.rx_data = Rx_Buf;
+	xf_setup.rx_cnt = xf_setup.tx_cnt = 0;
+	xf_setup.tx_data= dato2;
+	//Chip_SSP_Enable(LPC_SSP);
+	Chip_SSP_RWFrames_Blocking(LPC_SSP, &xf_setup);
+    //Chip_SSP_Disable(LPC_SSP);
+    port_pin(4,9, disable, high);//cs=1
+}
