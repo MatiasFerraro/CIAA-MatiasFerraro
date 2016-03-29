@@ -139,7 +139,6 @@ Discarded input sections
  .text          0x00000000        0x0 ./out/obj/ejemplo_uso_spi.o
  .data          0x00000000        0x0 ./out/obj/ejemplo_uso_spi.o
  .bss           0x00000000        0x0 ./out/obj/ejemplo_uso_spi.o
- .bss.Tx_Buf    0x00000000        0x8 ./out/obj/ejemplo_uso_spi.o
  .debug_macro   0x00000000      0x886 ./out/obj/ejemplo_uso_spi.o
  .debug_macro   0x00000000       0x22 ./out/obj/ejemplo_uso_spi.o
  .debug_macro   0x00000000       0x44 ./out/obj/ejemplo_uso_spi.o
@@ -1235,7 +1234,7 @@ END GROUP
  *(.rodata.$Flash2*)
  *(.rodata.$MFlashB512*)
 
-.text           0x1a000000     0x32bc
+.text           0x1a000000     0x3290
  FILL mask 0xff
                 0x1a000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -1244,25 +1243,25 @@ END GROUP
                 0x1a000114                . = ALIGN (0x4)
                 0x1a000114                __section_table_start = .
                 0x1a000114                __data_section_table = .
-                0x1a000114        0x4 LONG 0x1a0032bc LOADADDR (.data)
+                0x1a000114        0x4 LONG 0x1a003290 LOADADDR (.data)
                 0x1a000118        0x4 LONG 0x10000000 ADDR (.data)
                 0x1a00011c        0x4 LONG 0x0 SIZEOF (.data)
-                0x1a000120        0x4 LONG 0x1a0032bc LOADADDR (.data_RAM2)
+                0x1a000120        0x4 LONG 0x1a003290 LOADADDR (.data_RAM2)
                 0x1a000124        0x4 LONG 0x10080000 ADDR (.data_RAM2)
                 0x1a000128        0x4 LONG 0x0 SIZEOF (.data_RAM2)
-                0x1a00012c        0x4 LONG 0x1a0032bc LOADADDR (.data_RAM3)
+                0x1a00012c        0x4 LONG 0x1a003290 LOADADDR (.data_RAM3)
                 0x1a000130        0x4 LONG 0x20000000 ADDR (.data_RAM3)
                 0x1a000134        0x4 LONG 0x0 SIZEOF (.data_RAM3)
-                0x1a000138        0x4 LONG 0x1a0032bc LOADADDR (.data_RAM4)
+                0x1a000138        0x4 LONG 0x1a003290 LOADADDR (.data_RAM4)
                 0x1a00013c        0x4 LONG 0x20008000 ADDR (.data_RAM4)
                 0x1a000140        0x4 LONG 0x0 SIZEOF (.data_RAM4)
-                0x1a000144        0x4 LONG 0x1a0032bc LOADADDR (.data_RAM5)
+                0x1a000144        0x4 LONG 0x1a003290 LOADADDR (.data_RAM5)
                 0x1a000148        0x4 LONG 0x2000c000 ADDR (.data_RAM5)
                 0x1a00014c        0x4 LONG 0x0 SIZEOF (.data_RAM5)
                 0x1a000150                __data_section_table_end = .
                 0x1a000150                __bss_section_table = .
                 0x1a000150        0x4 LONG 0x10000000 ADDR (.bss)
-                0x1a000154        0x4 LONG 0x24 SIZEOF (.bss)
+                0x1a000154        0x4 LONG 0x8 SIZEOF (.bss)
                 0x1a000158        0x4 LONG 0x10080000 ADDR (.bss_RAM2)
                 0x1a00015c        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
                 0x1a000160        0x4 LONG 0x20000000 ADDR (.bss_RAM3)
@@ -1292,187 +1291,187 @@ END GROUP
  .text.Chip_SSP_Enable
                 0x1a000300       0x20 ./out/obj/ejemplo_uso_spi.o
  .text.write_data
-                0x1a000320       0x74 ./out/obj/ejemplo_uso_spi.o
+                0x1a000320       0x48 ./out/obj/ejemplo_uso_spi.o
                 0x1a000320                write_data
- .text.main     0x1a000394       0x44 ./out/obj/ejemplo_uso_spi.o
-                0x1a000394                main
+ .text.main     0x1a000368       0x44 ./out/obj/ejemplo_uso_spi.o
+                0x1a000368                main
  .text.Chip_SCU_PinMuxSet
-                0x1a0003d8       0x30 ./out/lib/drivers_bm.a(puertos.o)
+                0x1a0003ac       0x30 ./out/lib/drivers_bm.a(puertos.o)
  .text.Chip_SCU_PinMux
-                0x1a000408       0x3c ./out/lib/drivers_bm.a(puertos.o)
+                0x1a0003dc       0x3c ./out/lib/drivers_bm.a(puertos.o)
  .text.Chip_GPIO_ReadPortBit
-                0x1a000444       0x34 ./out/lib/drivers_bm.a(puertos.o)
+                0x1a000418       0x34 ./out/lib/drivers_bm.a(puertos.o)
  .text.Chip_GPIO_SetPinOutHigh
-                0x1a000478       0x30 ./out/lib/drivers_bm.a(puertos.o)
+                0x1a00044c       0x30 ./out/lib/drivers_bm.a(puertos.o)
  .text.Chip_GPIO_SetPinOutLow
-                0x1a0004a8       0x30 ./out/lib/drivers_bm.a(puertos.o)
+                0x1a00047c       0x30 ./out/lib/drivers_bm.a(puertos.o)
  .text.port_pin
-                0x1a0004d8     0x19a4 ./out/lib/drivers_bm.a(puertos.o)
-                0x1a0004d8                port_pin
+                0x1a0004ac     0x19a4 ./out/lib/drivers_bm.a(puertos.o)
+                0x1a0004ac                port_pin
  .text.leds_init
-                0x1a001e7c       0x98 ./out/lib/drivers_bm.a(leds.o)
-                0x1a001e7c                leds_init
+                0x1a001e50       0x98 ./out/lib/drivers_bm.a(leds.o)
+                0x1a001e50                leds_init
  .text.Chip_SCU_PinMuxSet
-                0x1a001f14       0x30 ./out/lib/drivers_bm.a(spi.o)
+                0x1a001ee8       0x30 ./out/lib/drivers_bm.a(spi.o)
  .text.Chip_SSP_Enable
-                0x1a001f44       0x20 ./out/lib/drivers_bm.a(spi.o)
+                0x1a001f18       0x20 ./out/lib/drivers_bm.a(spi.o)
  .text.Chip_SSP_SetFormat
-                0x1a001f64       0x30 ./out/lib/drivers_bm.a(spi.o)
+                0x1a001f38       0x30 ./out/lib/drivers_bm.a(spi.o)
  .text.Board_SSP_Init
-                0x1a001f94       0x24 ./out/lib/drivers_bm.a(spi.o)
-                0x1a001f94                Board_SSP_Init
+                0x1a001f68       0x24 ./out/lib/drivers_bm.a(spi.o)
+                0x1a001f68                Board_SSP_Init
  .text.Board_SSP_config
-                0x1a001fb8       0x98 ./out/lib/drivers_bm.a(spi.o)
-                0x1a001fb8                Board_SSP_config
+                0x1a001f8c       0x98 ./out/lib/drivers_bm.a(spi.o)
+                0x1a001f8c                Board_SSP_config
  .text.Chip_GPIO_SetPinDIROutput
-                0x1a002050       0x3c ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+                0x1a002024       0x3c ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
  .text.Chip_GPIO_SetPinDIRInput
-                0x1a00208c       0x40 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+                0x1a002060       0x40 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
  .text.Chip_GPIO_SetPinDIR
-                0x1a0020cc       0x44 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
-                0x1a0020cc                Chip_GPIO_SetPinDIR
+                0x1a0020a0       0x44 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+                0x1a0020a0                Chip_GPIO_SetPinDIR
  .text.Chip_SSP_GetStatus
-                0x1a002110       0x2c ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+                0x1a0020e4       0x2c ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
  .text.Chip_SSP_GetRawIntStatus
-                0x1a00213c       0x2c ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+                0x1a002110       0x2c ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
  .text.Chip_SSP_GetDataSize
-                0x1a002168       0x20 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+                0x1a00213c       0x20 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
  .text.Chip_SSP_ClearIntPending
-                0x1a002188       0x1c ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+                0x1a00215c       0x1c ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
  .text.Chip_SSP_ReceiveFrame
-                0x1a0021a4       0x1c ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+                0x1a002178       0x1c ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
  .text.Chip_SSP_SendFrame
-                0x1a0021c0       0x1c ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+                0x1a002194       0x1c ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
  .text.Chip_SSP_SetFormat
-                0x1a0021dc       0x30 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+                0x1a0021b0       0x30 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
  .text.Chip_SSP_Set_Mode
-                0x1a00220c       0x24 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+                0x1a0021e0       0x24 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
  .text.Chip_SSP_GetClockIndex
-                0x1a002230       0x2c ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+                0x1a002204       0x2c ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
  .text.Chip_SSP_GetPeriphClockIndex
-                0x1a00225c       0x30 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+                0x1a002230       0x30 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
  .text.Chip_SSP_SetClockRate
-                0x1a00228c       0x34 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
-                0x1a00228c                Chip_SSP_SetClockRate
+                0x1a002260       0x34 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+                0x1a002260                Chip_SSP_SetClockRate
  .text.Chip_SSP_WriteFrames_Blocking
-                0x1a0022c0      0x138 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
-                0x1a0022c0                Chip_SSP_WriteFrames_Blocking
+                0x1a002294      0x138 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+                0x1a002294                Chip_SSP_WriteFrames_Blocking
  .text.Chip_SSP_SetBitRate
-                0x1a0023f8       0x74 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
-                0x1a0023f8                Chip_SSP_SetBitRate
+                0x1a0023cc       0x74 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+                0x1a0023cc                Chip_SSP_SetBitRate
  .text.Chip_SSP_Init
-                0x1a00246c       0x4c ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
-                0x1a00246c                Chip_SSP_Init
+                0x1a002440       0x4c ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+                0x1a002440                Chip_SSP_Init
  .text.ResetISR
-                0x1a0024b8       0xe4 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
-                0x1a0024b8                ResetISR
- .text.ABS      0x1a00259c       0x24 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a00248c       0xe4 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+                0x1a00248c                ResetISR
+ .text.ABS      0x1a002570       0x24 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
  .text.pll_calc_divs
-                0x1a0025c0      0x11c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002594      0x11c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
  .text.pll_get_frac
-                0x1a0026dc      0x178 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a0026b0      0x178 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
  .text.Chip_Clock_GetDivRate
-                0x1a002854       0x40 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002828       0x40 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
  .text.Chip_Clock_FindBaseClock
-                0x1a002894       0x88 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002868       0x88 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
  .text.Chip_Clock_EnableCrystal
-                0x1a00291c       0x6c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
-                0x1a00291c                Chip_Clock_EnableCrystal
+                0x1a0028f0       0x6c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a0028f0                Chip_Clock_EnableCrystal
  .text.Chip_Clock_CalcMainPLLValue
-                0x1a002988       0xd8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
-                0x1a002988                Chip_Clock_CalcMainPLLValue
+                0x1a00295c       0xd8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a00295c                Chip_Clock_CalcMainPLLValue
  .text.Chip_Clock_GetMainPLLHz
-                0x1a002a60       0xc0 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
-                0x1a002a60                Chip_Clock_GetMainPLLHz
+                0x1a002a34       0xc0 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002a34                Chip_Clock_GetMainPLLHz
  .text.Chip_Clock_GetDividerSource
-                0x1a002b20       0x40 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
-                0x1a002b20                Chip_Clock_GetDividerSource
+                0x1a002af4       0x40 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002af4                Chip_Clock_GetDividerSource
  .text.Chip_Clock_GetDividerDivisor
-                0x1a002b60       0x38 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
-                0x1a002b60                Chip_Clock_GetDividerDivisor
+                0x1a002b34       0x38 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002b34                Chip_Clock_GetDividerDivisor
  .text.Chip_Clock_GetClockInputHz
-                0x1a002b98      0x140 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
-                0x1a002b98                Chip_Clock_GetClockInputHz
+                0x1a002b6c      0x140 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002b6c                Chip_Clock_GetClockInputHz
  .text.Chip_Clock_GetBaseClocktHz
-                0x1a002cd8       0x24 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
-                0x1a002cd8                Chip_Clock_GetBaseClocktHz
+                0x1a002cac       0x24 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002cac                Chip_Clock_GetBaseClocktHz
  .text.Chip_Clock_SetBaseClock
-                0x1a002cfc       0x9c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
-                0x1a002cfc                Chip_Clock_SetBaseClock
+                0x1a002cd0       0x9c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002cd0                Chip_Clock_SetBaseClock
  .text.Chip_Clock_GetBaseClock
-                0x1a002d98       0x4c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
-                0x1a002d98                Chip_Clock_GetBaseClock
+                0x1a002d6c       0x4c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002d6c                Chip_Clock_GetBaseClock
  .text.Chip_Clock_Enable
-                0x1a002de4       0x60 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
-                0x1a002de4                Chip_Clock_Enable
+                0x1a002db8       0x60 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002db8                Chip_Clock_Enable
  .text.Chip_Clock_GetRate
-                0x1a002e44       0x88 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
-                0x1a002e44                Chip_Clock_GetRate
+                0x1a002e18       0x88 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002e18                Chip_Clock_GetRate
  .text.SystemInit
-                0x1a002ecc       0x1c ./out/lib/ext_drivers.a(sysinit.o)
-                0x1a002ecc                SystemInit
- .text.fpuInit  0x1a002ee8       0x74 ./out/lib/ext_drivers.a(fpu_init.o)
-                0x1a002ee8                fpuInit
+                0x1a002ea0       0x1c ./out/lib/ext_drivers.a(sysinit.o)
+                0x1a002ea0                SystemInit
+ .text.fpuInit  0x1a002ebc       0x74 ./out/lib/ext_drivers.a(fpu_init.o)
+                0x1a002ebc                fpuInit
  .text.Chip_Clock_DisableMainPLL
-                0x1a002f5c       0x1c ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+                0x1a002f30       0x1c ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
  .text.Chip_Clock_SetupMainPLL
-                0x1a002f78       0x40 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+                0x1a002f4c       0x40 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
  .text.Chip_Clock_MainPLLLocked
-                0x1a002fb8       0x24 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+                0x1a002f8c       0x24 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
  .text.Chip_SetupCoreClock
-                0x1a002fdc      0x15c ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
-                0x1a002fdc                Chip_SetupCoreClock
+                0x1a002fb0      0x15c ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+                0x1a002fb0                Chip_SetupCoreClock
  .text.Chip_SetupIrcClocking
-                0x1a003138       0x14 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
-                0x1a003138                Chip_SetupIrcClocking
+                0x1a00310c       0x14 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+                0x1a00310c                Chip_SetupIrcClocking
  .text.Chip_SystemInit
-                0x1a00314c        0xc ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
-                0x1a00314c                Chip_SystemInit
- .text.memset   0x1a003158       0x9c c:/ciaa/cygwin/usr/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-memset.o)
-                0x1a003158                memset
+                0x1a003120        0xc ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+                0x1a003120                Chip_SystemInit
+ .text.memset   0x1a00312c       0x9c c:/ciaa/cygwin/usr/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-memset.o)
+                0x1a00312c                memset
  *(.rodata .rodata.* .constdata .constdata.*)
  .rodata.periph_to_base
-                0x1a0031f4       0x6c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
- .rodata        0x1a003260        0xa ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
- *fill*         0x1a00326a        0x2 
+                0x1a0031c8       0x6c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .rodata        0x1a003234        0xa ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ *fill*         0x1a00323e        0x2 
  .rodata.ExtRateIn
-                0x1a00326c        0x4 ./out/lib/ext_drivers.a(sysinit.o)
-                0x1a00326c                ExtRateIn
+                0x1a003240        0x4 ./out/lib/ext_drivers.a(sysinit.o)
+                0x1a003240                ExtRateIn
  .rodata.OscRateIn
-                0x1a003270        0x4 ./out/lib/ext_drivers.a(sysinit.o)
-                0x1a003270                OscRateIn
+                0x1a003244        0x4 ./out/lib/ext_drivers.a(sysinit.o)
+                0x1a003244                OscRateIn
  .rodata.InitClkStates
-                0x1a003274       0x48 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
-                0x1a0032bc                . = ALIGN (0x4)
+                0x1a003248       0x48 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+                0x1a003290                . = ALIGN (0x4)
 
-.glue_7         0x1a0032bc        0x0
+.glue_7         0x1a003290        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x1a0032bc        0x0
+.glue_7t        0x1a003290        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x1a0032bc        0x0
+.vfp11_veneer   0x1a003290        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x1a0032bc        0x0
+.v4_bx          0x1a003290        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x1a0032bc        0x0
+.iplt           0x1a003290        0x0
  .iplt          0x00000000        0x0 ./out/obj/vector.o
 
-.rel.dyn        0x1a0032bc        0x0
+.rel.dyn        0x1a003290        0x0
  .rel.iplt      0x00000000        0x0 ./out/obj/vector.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x1a0032bc                __exidx_start = .
+                0x1a003290                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x1a0032bc                __exidx_end = .
-                0x1a0032bc                _etext = .
+                0x1a003290                __exidx_end = .
+                0x1a003290                _etext = .
 
-.data_RAM2      0x10080000        0x0 load address 0x1a0032bc
+.data_RAM2      0x10080000        0x0 load address 0x1a003290
  FILL mask 0xff
  *(.ramfunc.$RAM2)
  *(.ramfunc.$RamLoc40)
@@ -1480,7 +1479,7 @@ END GROUP
  *(.data.$RamLoc40*)
                 0x10080000                . = ALIGN (0x4)
 
-.data_RAM3      0x20000000        0x0 load address 0x1a0032bc
+.data_RAM3      0x20000000        0x0 load address 0x1a003290
  FILL mask 0xff
  *(.ramfunc.$RAM3)
  *(.ramfunc.$RamAHB32)
@@ -1488,7 +1487,7 @@ END GROUP
  *(.data.$RamAHB32*)
                 0x20000000                . = ALIGN (0x4)
 
-.data_RAM4      0x20008000        0x0 load address 0x1a0032bc
+.data_RAM4      0x20008000        0x0 load address 0x1a003290
  FILL mask 0xff
  *(.ramfunc.$RAM4)
  *(.ramfunc.$RamAHB16)
@@ -1496,7 +1495,7 @@ END GROUP
  *(.data.$RamAHB16*)
                 0x20008000                . = ALIGN (0x4)
 
-.data_RAM5      0x2000c000        0x0 load address 0x1a0032bc
+.data_RAM5      0x2000c000        0x0 load address 0x1a003290
  FILL mask 0xff
  *(.ramfunc.$RAM5)
  *(.ramfunc.$RamAHB_ETB16)
@@ -1510,7 +1509,7 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _end_uninit_RESERVED = .
 
-.data           0x10000000        0x0 load address 0x1a0032bc
+.data           0x10000000        0x0 load address 0x1a003290
  FILL mask 0xff
                 0x10000000                _data = .
  *(vtable)
@@ -1519,7 +1518,7 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _edata = .
 
-.igot.plt       0x10000000        0x0 load address 0x1a0032bc
+.igot.plt       0x10000000        0x0 load address 0x1a003290
  .igot.plt      0x00000000        0x0 ./out/obj/vector.o
 
 .bss_RAM2       0x10080000        0x0
@@ -1542,17 +1541,15 @@ END GROUP
  *(.bss.$RamAHB_ETB16*)
                 0x2000c000                . = ALIGN (0x4)
 
-.bss            0x10000000       0x24
+.bss            0x10000000        0x8
                 0x10000000                _bss = .
  *(.bss*)
- .bss.xf_setup  0x10000000       0x14 ./out/obj/ejemplo_uso_spi.o
- .bss.Rx_Buf    0x10000014        0x8 ./out/obj/ejemplo_uso_spi.o
  .bss.audio_usb_pll_freq
-                0x1000001c        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x10000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
  *(COMMON)
-                0x10000024                . = ALIGN (0x4)
-                0x10000024                _ebss = .
-                0x10000024                PROVIDE (end, .)
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                _ebss = .
+                0x10000008                PROVIDE (end, .)
 
 .noinit_RAM2    0x10080000        0x0
  *(.noinit.$RAM2*)
@@ -1574,44 +1571,44 @@ END GROUP
  *(.noinit.$RamAHB_ETB16*)
                 0x2000c000                . = ALIGN (0x4)
 
-.noinit         0x10000024        0x0
-                0x10000024                _noinit = .
+.noinit         0x10000008        0x0
+                0x10000008                _noinit = .
  *(.noinit*)
-                0x10000024                . = ALIGN (0x4)
-                0x10000024                _end_noinit = .
-                0x10000024                PROVIDE (_pvHeapStart, .)
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                _end_noinit = .
+                0x10000008                PROVIDE (_pvHeapStart, .)
                 0x10008000                PROVIDE (_vStackTop, (__top_RamLoc32 - 0x0))
 OUTPUT(./out/bin/ejemplo_uso_spi.axf elf32-littlearm)
 
-.debug_info     0x00000000     0x51f8
+.debug_info     0x00000000     0x4c81
  .debug_info    0x00000000      0x650 ./out/obj/vector.o
- .debug_info    0x00000650      0x796 ./out/obj/ejemplo_uso_spi.o
- .debug_info    0x00000de6       0x3f ./out/obj/crp.o
- .debug_info    0x00000e25      0x4f8 ./out/lib/drivers_bm.a(puertos.o)
- .debug_info    0x0000131d      0x11b ./out/lib/drivers_bm.a(leds.o)
- .debug_info    0x00001438      0x5f6 ./out/lib/drivers_bm.a(spi.o)
- .debug_info    0x00001a2e      0x44c ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
- .debug_info    0x00001e7a      0xc25 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
- .debug_info    0x00002a9f      0x1c3 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
- .debug_info    0x00002c62     0x158f ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
- .debug_info    0x000041f1      0x5c0 ./out/lib/ext_drivers.a(sysinit.o)
- .debug_info    0x000047b1      0x145 ./out/lib/ext_drivers.a(fpu_init.o)
- .debug_info    0x000048f6      0x902 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_info    0x00000650      0x21f ./out/obj/ejemplo_uso_spi.o
+ .debug_info    0x0000086f       0x3f ./out/obj/crp.o
+ .debug_info    0x000008ae      0x4f8 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_info    0x00000da6      0x11b ./out/lib/drivers_bm.a(leds.o)
+ .debug_info    0x00000ec1      0x5f6 ./out/lib/drivers_bm.a(spi.o)
+ .debug_info    0x000014b7      0x44c ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_info    0x00001903      0xc25 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+ .debug_info    0x00002528      0x1c3 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .debug_info    0x000026eb     0x158f ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_info    0x00003c7a      0x5c0 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_info    0x0000423a      0x145 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_info    0x0000437f      0x902 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
 
-.debug_abbrev   0x00000000      0xfa6
+.debug_abbrev   0x00000000      0xf78
  .debug_abbrev  0x00000000       0xc7 ./out/obj/vector.o
- .debug_abbrev  0x000000c7      0x159 ./out/obj/ejemplo_uso_spi.o
- .debug_abbrev  0x00000220       0x36 ./out/obj/crp.o
- .debug_abbrev  0x00000256      0x177 ./out/lib/drivers_bm.a(puertos.o)
- .debug_abbrev  0x000003cd       0x93 ./out/lib/drivers_bm.a(leds.o)
- .debug_abbrev  0x00000460      0x1bd ./out/lib/drivers_bm.a(spi.o)
- .debug_abbrev  0x0000061d      0x111 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
- .debug_abbrev  0x0000072e      0x232 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
- .debug_abbrev  0x00000960       0xc0 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
- .debug_abbrev  0x00000a20      0x2c0 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
- .debug_abbrev  0x00000ce0       0xc1 ./out/lib/ext_drivers.a(sysinit.o)
- .debug_abbrev  0x00000da1       0x84 ./out/lib/ext_drivers.a(fpu_init.o)
- .debug_abbrev  0x00000e25      0x181 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_abbrev  0x000000c7      0x12b ./out/obj/ejemplo_uso_spi.o
+ .debug_abbrev  0x000001f2       0x36 ./out/obj/crp.o
+ .debug_abbrev  0x00000228      0x177 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_abbrev  0x0000039f       0x93 ./out/lib/drivers_bm.a(leds.o)
+ .debug_abbrev  0x00000432      0x1bd ./out/lib/drivers_bm.a(spi.o)
+ .debug_abbrev  0x000005ef      0x111 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_abbrev  0x00000700      0x232 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+ .debug_abbrev  0x00000932       0xc0 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .debug_abbrev  0x000009f2      0x2c0 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_abbrev  0x00000cb2       0xc1 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_abbrev  0x00000d73       0x84 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_abbrev  0x00000df7      0x181 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
 
 .debug_aranges  0x00000000      0x4c8
  .debug_aranges
@@ -1655,7 +1652,7 @@ OUTPUT(./out/bin/ejemplo_uso_spi.axf elf32-littlearm)
  .debug_ranges  0x000003a0       0x10 ./out/lib/ext_drivers.a(fpu_init.o)
  .debug_ranges  0x000003b0       0x40 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
 
-.debug_macro    0x00000000     0x60e8
+.debug_macro    0x00000000     0x60d6
  .debug_macro   0x00000000      0x301 ./out/obj/vector.o
  .debug_macro   0x00000301      0x886 ./out/obj/vector.o
  .debug_macro   0x00000b87       0x22 ./out/obj/vector.o
@@ -1710,63 +1707,63 @@ OUTPUT(./out/bin/ejemplo_uso_spi.axf elf32-littlearm)
  .debug_macro   0x000043d3       0x22 ./out/obj/vector.o
  .debug_macro   0x000043f5       0x40 ./out/obj/vector.o
  .debug_macro   0x00004435       0x10 ./out/obj/vector.o
- .debug_macro   0x00004445      0x333 ./out/obj/ejemplo_uso_spi.o
- .debug_macro   0x00004778       0x34 ./out/obj/ejemplo_uso_spi.o
- .debug_macro   0x000047ac       0x22 ./out/obj/ejemplo_uso_spi.o
- .debug_macro   0x000047ce       0x17 ./out/obj/crp.o
- .debug_macro   0x000047e5      0x319 ./out/lib/drivers_bm.a(puertos.o)
- .debug_macro   0x00004afe      0x304 ./out/lib/drivers_bm.a(leds.o)
- .debug_macro   0x00004e02       0x28 ./out/lib/drivers_bm.a(leds.o)
- .debug_macro   0x00004e2a      0x303 ./out/lib/drivers_bm.a(spi.o)
- .debug_macro   0x0000512d      0x2f2 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
- .debug_macro   0x0000541f      0x2f2 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
- .debug_macro   0x00005711       0x23 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
- .debug_macro   0x00005734      0x2f8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
- .debug_macro   0x00005a2c      0x2f2 ./out/lib/ext_drivers.a(sysinit.o)
- .debug_macro   0x00005d1e       0xd8 ./out/lib/ext_drivers.a(fpu_init.o)
- .debug_macro   0x00005df6      0x2f2 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00004445      0x321 ./out/obj/ejemplo_uso_spi.o
+ .debug_macro   0x00004766       0x34 ./out/obj/ejemplo_uso_spi.o
+ .debug_macro   0x0000479a       0x22 ./out/obj/ejemplo_uso_spi.o
+ .debug_macro   0x000047bc       0x17 ./out/obj/crp.o
+ .debug_macro   0x000047d3      0x319 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00004aec      0x304 ./out/lib/drivers_bm.a(leds.o)
+ .debug_macro   0x00004df0       0x28 ./out/lib/drivers_bm.a(leds.o)
+ .debug_macro   0x00004e18      0x303 ./out/lib/drivers_bm.a(spi.o)
+ .debug_macro   0x0000511b      0x2f2 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x0000540d      0x2f2 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+ .debug_macro   0x000056ff       0x23 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .debug_macro   0x00005722      0x2f8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00005a1a      0x2f2 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00005d0c       0xd8 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_macro   0x00005de4      0x2f2 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
 
-.debug_line     0x00000000     0x5457
+.debug_line     0x00000000     0x5453
  .debug_line    0x00000000      0x6c8 ./out/obj/vector.o
- .debug_line    0x000006c8      0x730 ./out/obj/ejemplo_uso_spi.o
- .debug_line    0x00000df8       0x4a ./out/obj/crp.o
- .debug_line    0x00000e42      0xb2a ./out/lib/drivers_bm.a(puertos.o)
- .debug_line    0x0000196c      0x6d1 ./out/lib/drivers_bm.a(leds.o)
- .debug_line    0x0000203d      0x742 ./out/lib/drivers_bm.a(spi.o)
- .debug_line    0x0000277f      0x728 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
- .debug_line    0x00002ea7      0x9c0 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
- .debug_line    0x00003867       0xe1 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
- .debug_line    0x00003948      0xad0 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
- .debug_line    0x00004418      0x66f ./out/lib/ext_drivers.a(sysinit.o)
- .debug_line    0x00004a87      0x287 ./out/lib/ext_drivers.a(fpu_init.o)
- .debug_line    0x00004d0e      0x749 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_line    0x000006c8      0x72c ./out/obj/ejemplo_uso_spi.o
+ .debug_line    0x00000df4       0x4a ./out/obj/crp.o
+ .debug_line    0x00000e3e      0xb2a ./out/lib/drivers_bm.a(puertos.o)
+ .debug_line    0x00001968      0x6d1 ./out/lib/drivers_bm.a(leds.o)
+ .debug_line    0x00002039      0x742 ./out/lib/drivers_bm.a(spi.o)
+ .debug_line    0x0000277b      0x728 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_line    0x00002ea3      0x9c0 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+ .debug_line    0x00003863       0xe1 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .debug_line    0x00003944      0xad0 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_line    0x00004414      0x66f ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_line    0x00004a83      0x287 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_line    0x00004d0a      0x749 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
 
-.debug_str      0x00000000    0x16476
+.debug_str      0x00000000    0x1641c
  .debug_str     0x00000000    0x14d2a ./out/obj/vector.o
                               0x14efe (size before relaxing)
- .debug_str     0x00014d2a      0x24a ./out/obj/ejemplo_uso_spi.o
-                              0x15083 (size before relaxing)
- .debug_str     0x00014f74       0x49 ./out/obj/crp.o
+ .debug_str     0x00014d2a      0x1ac ./out/obj/ejemplo_uso_spi.o
+                              0x145c9 (size before relaxing)
+ .debug_str     0x00014ed6       0x49 ./out/obj/crp.o
                                0x24d8 (size before relaxing)
- .debug_str     0x00014fbd      0x13d ./out/lib/drivers_bm.a(puertos.o)
+ .debug_str     0x00014f1f      0x147 ./out/lib/drivers_bm.a(puertos.o)
                               0x145a2 (size before relaxing)
- .debug_str     0x000150fa       0x6d ./out/lib/drivers_bm.a(leds.o)
+ .debug_str     0x00015066       0x6d ./out/lib/drivers_bm.a(leds.o)
                               0x144ae (size before relaxing)
- .debug_str     0x00015167      0x1f3 ./out/lib/drivers_bm.a(spi.o)
+ .debug_str     0x000150d3      0x224 ./out/lib/drivers_bm.a(spi.o)
                               0x147c7 (size before relaxing)
- .debug_str     0x0001535a      0x13f ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_str     0x000152f7      0x13f ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
                               0x14560 (size before relaxing)
- .debug_str     0x00015499      0x438 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
+ .debug_str     0x00015436      0x441 ./out/lib/ext_drivers.a(ssp_18xx_43xx.o)
                               0x14e7b (size before relaxing)
- .debug_str     0x000158d1      0x166 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .debug_str     0x00015877      0x166 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
                                0x260d (size before relaxing)
- .debug_str     0x00015a37      0x832 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_str     0x000159dd      0x832 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
                               0x156e1 (size before relaxing)
- .debug_str     0x00016269       0x31 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_str     0x0001620f       0x31 ./out/lib/ext_drivers.a(sysinit.o)
                               0x14e5d (size before relaxing)
- .debug_str     0x0001629a       0xd5 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_str     0x00016240       0xd5 ./out/lib/ext_drivers.a(fpu_init.o)
                                0x8cf3 (size before relaxing)
- .debug_str     0x0001636f      0x107 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_str     0x00016315      0x107 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
                               0x15123 (size before relaxing)
 
 .comment        0x00000000       0x70

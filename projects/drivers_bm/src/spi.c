@@ -1,7 +1,7 @@
 /*
- * uart.c
+ * spi.c
  *
- *  Created on: 31/01/2016
+ *  Created on: 29/03/2016
  *      Author: Matias Leandro Ferraro
  */
 #include "spi.h"
@@ -12,11 +12,11 @@ void Board_SSP_Init(void)
 	Chip_SCU_PinMuxSet(0xF, 4, (SCU_PINIO_FAST | SCU_MODE_FUNC0));  /* PF.4 => SCK1 */
 	//Chip_GPIO_SetPinDIR(LPC_GPIO_PORT, 7, pin+14,FUNC0);
 	Chip_SCU_PinMuxSet(0x1, 4, (SCU_MODE_INACT | SCU_MODE_INBUFF_EN | SCU_MODE_ZIF_DIS | SCU_MODE_FUNC5)); /* P1.4 => MOSI1 */
-<<<<<<< HEAD
+
    // Chip_GPIO_SetPinDIR(LPC_GPIO_PORT, 0, 11, FUNC5);
-=======
+
 	//Chip_GPIO_SetPinDIR(LPC_GPIO_PORT, 0, 11, FUNC5);
->>>>>>> 274712184375b9f4cea9785f942a8561e451895b
+
 	Chip_SCU_PinMuxSet(0x1, 3, (SCU_MODE_INACT | SCU_MODE_INBUFF_EN | SCU_MODE_ZIF_DIS | SCU_MODE_FUNC5)); /* P1.3 => MISO1 */
 	//Chip_GPIO_SetPinDIR(LPC_GPIO_PORT, 0, 10, FUNC5);
 }
@@ -30,11 +30,11 @@ void Board_SSP_config(uint8_t bits, uint8_t clockMode, uint32_t bitrate)
 		case 8: bitsConfig=SSP_BITS_8;break;
 		case 16: bitsConfig=SSP_BITS_16;break;
 	}
-<<<<<<< HEAD
-	uint32_t clockModeConfig = SSP_CLOCK_CPHA1_CPOL1;
-=======
+
+
+
 	uint32_t clockModeConfig = SSP_CLOCK_CPHA0_CPOL0;
->>>>>>> 274712184375b9f4cea9785f942a8561e451895b
+
 	switch(clockMode)
 	{
 		case 0: clockModeConfig = SSP_CLOCK_CPHA0_CPOL0;break;

@@ -95,22 +95,6 @@
  */
 
 #define LPC_SSP             LPC_SSP1
-#define SSP_MODE_TEST       1/*1: Master, 0: Slave */
-#define SSP_DATA_BITS       SSP_BITS_16//(SSP_BITS_8)
-#define BUFFER_SIZE         8
-typedef SPI_DATA[8];
-typedef struct {
-	SPI_DATA  *tx_data;	/*!< Pointer to transmit data */
-	uint32_t  tx_cnt;	/*!< Transmit counter */
-	SPI_DATA  *rx_data;	/*!< Pointer to transmit data */
-	uint32_t  rx_cnt;	/*!< Receive counter */
-	uint32_t  length;	/*!< Length of transfer data */
-} Chip_SSP_DATA_SETUP_T_;
-static Chip_SSP_DATA_SETUP_T_ xf_setup;
-/* Tx buffer */
- static uint8_t Tx_Buf[BUFFER_SIZE];
-/* Rx buffer */
-static uint8_t Rx_Buf[BUFFER_SIZE];
 
 
 void  write_data(uint32_t hexa)
@@ -118,19 +102,13 @@ void  write_data(uint32_t hexa)
 
 	port_pin(4,9, disable, low);  //cs=0
 	port_pin(4,10, disable, high);//dc=1
-    xf_setup.length = 1;
-    xf_setup.rx_data = Rx_Buf;
-	xf_setup.rx_cnt = xf_setup.tx_cnt = 0;
-	xf_setup.tx_data= hexa;
-	Chip_SSP_Enable(LPC_SSP);
-	//Chip_SSP_RWFrames_Blocking(LPC_SSP, &xf_setup);
+    Chip_SSP_Enable(LPC_SSP);
 	Chip_SSP_WriteFrames_Blocking(LPC_SSP,&hexa, 1);
 	port_pin(4,9, disable, high);//cs=1
 }
 int main(void)
 {
-
-	 port_pin(4,10, SCU_MODE_INACT,init_out);
+     port_pin(4,10, SCU_MODE_INACT,init_out);
 	 port_pin(4,9, SCU_MODE_INACT ,init_out);
 	 port_pin(0,0, SCU_MODE_INACT ,init_out);
 	 leds_init();
@@ -139,7 +117,7 @@ int main(void)
 	 write_data(0x84);
 	 while(1){
 
-	}
+	         }
 
     return 0;
 }

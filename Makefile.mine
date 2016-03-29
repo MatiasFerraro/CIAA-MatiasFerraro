@@ -74,11 +74,10 @@ BOARD          ?= edu_ciaa_nxp
 ###############################################################################
 # rtostests options
 #
-# RTOSTESTS_DEBUG_CTESTS = 1 #, set debug flag in ctest.pl
-# RTOSTESTS_CLEAN_GENERATE = 0 #, skips make clean and generate (use it only if you are running a single sub test case, but after generating RTOS at least one time!)
-# RTOSTESTS_CTEST = 'ctest_tm_01:Test Sequence 1' #, test case name, based on ctestcases.cfg (use it for single ctest)
-# RTOSTESTS_SUBTEST = 'full-preemptive' #, sub test case name, based on ctestcases.cfg or empty to start running from this test to the end
-# RTOSTESTS_FLASH_ONCE = 0 # (=1) Flash target only for first test, then remove flash section to save flash memory cycles. (=0) Memory Flashed for each test.
+# RTOSTESTS_DEBUG_CTESTS ?= 1 , set debug flag in ctest.pl
+# RTOSTESTS_CLEAN_GENERATE ?= 1 , skips make clean and generate (use it only if you are running a single sub test case, but after generating RTOS at least one time!)
+# RTOSTESTS_CTEST ?= 'ctest_tm_01:Test Sequence 1' , test case name, based on ctestcases.cfg (use it for single ctest)
+# RTOSTESTS_SUBTEST ?= 'full-preemptive' , sub test case name, based on ctestcases.cfg or empty to start running from this test to the end
 
 # Projects
 #
@@ -91,11 +90,8 @@ BOARD          ?= edu_ciaa_nxp
 # examples/blinking_lwip             (blinking and tcp echo using lwip)
 # examples/rtos_example              (example using rtos)
 #
-<<<<<<< HEAD
-PROJECT_PATH ?= projects$(DS)ejemplo_uso_spi
-=======
-PROJECT_PATH ?= projects$(DS)CIAA-FULL-ejemplo_uso_salidas_digitales
->>>>>>> 274712184375b9f4cea9785f942a8561e451895b
-LFLAGS += -lc -lrdimon
 
+PROJECT_PATH ?= projects$(DS)ejemplo_uso_spi
+
+LFLAGS += -lc -lrdimon
 
