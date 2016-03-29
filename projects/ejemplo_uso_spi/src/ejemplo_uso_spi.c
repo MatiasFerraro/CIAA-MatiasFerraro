@@ -136,7 +136,7 @@ int main(void)
 	 leds_init();
 	 Board_SSP_Init();
 	 Board_SSP_config(8,SSP_CLOCK_CPHA0_CPOL0 ,5000);
-	 write_data(0x12);
+	 write_data(0x84);
 	 while(1){
 
 	}

@@ -91,7 +91,11 @@ BOARD          ?= edu_ciaa_nxp
 # examples/blinking_lwip             (blinking and tcp echo using lwip)
 # examples/rtos_example              (example using rtos)
 #
+<<<<<<< HEAD
 PROJECT_PATH ?= projects$(DS)ejemplo_uso_spi
+=======
+PROJECT_PATH ?= projects$(DS)CIAA-FULL-ejemplo_uso_salidas_digitales
+>>>>>>> 274712184375b9f4cea9785f942a8561e451895b
 LFLAGS += -lc -lrdimon
 
 

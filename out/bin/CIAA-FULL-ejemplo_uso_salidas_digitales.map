@@ -1,0 +1,1516 @@
+Archive member included because of file (symbol)
+
+./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+                              ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o (rele_init)
+./out/lib/drivers_bm.a(puertos.o)
+                              ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o) (port_pin)
+./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+                              ./out/lib/drivers_bm.a(puertos.o) (Chip_GPIO_SetPinDIR)
+./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+                              ./out/obj/vector.o (ResetISR)
+./out/lib/ext_drivers.a(sysinit.o)
+                              ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o) (SystemInit)
+./out/lib/ext_drivers.a(fpu_init.o)
+                              ./out/lib/ext_drivers.a(sysinit.o) (fpuInit)
+./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+                              ./out/lib/ext_drivers.a(sysinit.o) (Chip_SystemInit)
+./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                              ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o) (Chip_Clock_EnableCrystal)
+c:/ciaa/cygwin/usr/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-memset.o)
+                              ./out/lib/ext_drivers.a(clock_18xx_43xx.o) (memset)
+
+Discarded input sections
+
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .text          0x00000000        0x0 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .data          0x00000000        0x0 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .bss           0x00000000        0x0 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/vector.o
+ .text          0x00000000        0x0 ./out/obj/vector.o
+ .data          0x00000000        0x0 ./out/obj/vector.o
+ .bss           0x00000000        0x0 ./out/obj/vector.o
+ .debug_macro   0x00000000      0x886 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x22 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x44 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x58 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x22 ./out/obj/vector.o
+ .debug_macro   0x00000000      0x1df ./out/obj/vector.o
+ .debug_macro   0x00000000       0x10 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x22 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x66 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x28 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x3b ./out/obj/vector.o
+ .debug_macro   0x00000000       0x2d ./out/obj/vector.o
+ .debug_macro   0x00000000       0x42 ./out/obj/vector.o
+ .debug_macro   0x00000000      0xd39 ./out/obj/vector.o
+ .debug_macro   0x00000000      0x2bc ./out/obj/vector.o
+ .debug_macro   0x00000000      0x112 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x11 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x2a ./out/obj/vector.o
+ .debug_macro   0x00000000       0x16 ./out/obj/vector.o
+ .debug_macro   0x00000000      0x2e6 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x82 ./out/obj/vector.o
+ .debug_macro   0x00000000      0x13d ./out/obj/vector.o
+ .debug_macro   0x00000000      0x198 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x34 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x58 ./out/obj/vector.o
+ .debug_macro   0x00000000      0x236 ./out/obj/vector.o
+ .debug_macro   0x00000000      0x572 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x16 ./out/obj/vector.o
+ .debug_macro   0x00000000      0x18a ./out/obj/vector.o
+ .debug_macro   0x00000000       0x88 ./out/obj/vector.o
+ .debug_macro   0x00000000      0x1b9 ./out/obj/vector.o
+ .debug_macro   0x00000000      0x1da ./out/obj/vector.o
+ .debug_macro   0x00000000       0x40 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x1c ./out/obj/vector.o
+ .debug_macro   0x00000000       0x2e ./out/obj/vector.o
+ .debug_macro   0x00000000       0x2e ./out/obj/vector.o
+ .debug_macro   0x00000000       0x22 ./out/obj/vector.o
+ .debug_macro   0x00000000      0x201 ./out/obj/vector.o
+ .debug_macro   0x00000000       0xe0 ./out/obj/vector.o
+ .debug_macro   0x00000000      0x34c ./out/obj/vector.o
+ .debug_macro   0x00000000       0xdc ./out/obj/vector.o
+ .debug_macro   0x00000000       0xc4 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x94 ./out/obj/vector.o
+ .debug_macro   0x00000000       0xb8 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x4c ./out/obj/vector.o
+ .debug_macro   0x00000000       0x16 ./out/obj/vector.o
+ .debug_macro   0x00000000      0x328 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x3a ./out/obj/vector.o
+ .debug_macro   0x00000000       0xd0 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x18 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x22 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x40 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x34 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x34 ./out/obj/vector.o
+ .debug_macro   0x00000000       0x10 ./out/obj/vector.o
+ .group         0x00000000        0x8 ./out/obj/crp.o
+ .text          0x00000000        0x0 ./out/obj/crp.o
+ .data          0x00000000        0x0 ./out/obj/crp.o
+ .bss           0x00000000        0x0 ./out/obj/crp.o
+ .debug_macro   0x00000000      0x886 ./out/obj/crp.o
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .text          0x00000000        0x0 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .data          0x00000000        0x0 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .bss           0x00000000        0x0 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000      0x886 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x44 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x58 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000      0x1df ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x10 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x66 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x28 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x3b ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x2d ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x42 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000      0xd39 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000      0x2bc ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000      0x112 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x11 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x2a ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000      0x2e6 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x82 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000      0x13d ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000      0x198 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x34 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x58 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000      0x236 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000      0x572 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000      0x18a ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x88 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000      0x1b9 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000      0x1da ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x40 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x1c ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x2e ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x2e ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000      0x201 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0xe0 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000      0x34c ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0xdc ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0xc4 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x94 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0xb8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x4c ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000      0x328 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x3a ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0xd0 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x18 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x40 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x34 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00000000       0x34 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/drivers_bm.a(puertos.o)
+ .text          0x00000000        0x0 ./out/lib/drivers_bm.a(puertos.o)
+ .data          0x00000000        0x0 ./out/lib/drivers_bm.a(puertos.o)
+ .bss           0x00000000        0x0 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000      0x886 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x10 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x44 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x58 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000      0x1df ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x66 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x28 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x3b ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x2d ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x42 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000      0xd39 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000      0x2bc ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000      0x112 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x11 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x2a ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000      0x2e6 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x82 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000      0x13d ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000      0x198 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x34 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x58 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000      0x236 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000      0x572 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000      0x18a ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x88 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000      0x1b9 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000      0x1da ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x40 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x1c ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x2e ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x2e ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000      0x201 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0xe0 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000      0x34c ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0xdc ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0xc4 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x94 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0xb8 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x4c ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000      0x328 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x3a ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0xd0 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x18 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x40 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00000000       0x34 ./out/lib/drivers_bm.a(puertos.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .text          0x00000000        0x0 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .data          0x00000000        0x0 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .bss           0x00000000        0x0 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_SetPortDIROutput
+                0x00000000       0x34 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_SetPortDIRInput
+                0x00000000       0x38 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_Init
+                0x00000000       0x14 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_DeInit
+                0x00000000       0x14 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_WriteDirBit
+                0x00000000       0x74 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_SetDir
+                0x00000000       0x60 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_SetPortDIR
+                0x00000000       0x44 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x886 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x44 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1df ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x66 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x28 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3b ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2d ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x42 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0xd39 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2bc ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x112 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x11 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2a ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2e6 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x82 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x13d ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x198 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x34 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x236 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x572 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x18a ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x88 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1b9 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1da ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1c ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x201 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0xe0 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x34c ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0xdc ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0xc4 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x94 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0xb8 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x4c ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000      0x328 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3a ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd0 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x18 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .text          0x00000000        0x0 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .data          0x00000000        0x0 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .bss           0x00000000        0x0 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .debug_macro   0x00000000      0x886 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit.o)
+ .text          0x00000000        0x0 ./out/lib/ext_drivers.a(sysinit.o)
+ .data          0x00000000        0x0 ./out/lib/ext_drivers.a(sysinit.o)
+ .bss           0x00000000        0x0 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000      0x886 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x10 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x44 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x58 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000      0x1df ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x66 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x28 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x3b ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x2d ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x42 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000      0xd39 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000      0x2bc ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000      0x112 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x11 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x2a ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000      0x2e6 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x82 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000      0x13d ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000      0x198 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x34 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x58 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000      0x236 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000      0x572 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000      0x18a ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x88 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000      0x1b9 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000      0x1da ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x40 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x1c ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x2e ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x2e ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000      0x201 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0xe0 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000      0x34c ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0xdc ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0xc4 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x94 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0xb8 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x4c ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000      0x328 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x3a ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0xd0 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x18 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00000000       0x40 ./out/lib/ext_drivers.a(sysinit.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(fpu_init.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(fpu_init.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(fpu_init.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(fpu_init.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(fpu_init.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(fpu_init.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(fpu_init.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(fpu_init.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(fpu_init.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(fpu_init.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(fpu_init.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(fpu_init.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(fpu_init.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(fpu_init.o)
+ .text          0x00000000        0x0 ./out/lib/ext_drivers.a(fpu_init.o)
+ .data          0x00000000        0x0 ./out/lib/ext_drivers.a(fpu_init.o)
+ .bss           0x00000000        0x0 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_macro   0x00000000      0x886 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_macro   0x00000000       0x10 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_macro   0x00000000       0x44 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_macro   0x00000000       0x58 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_macro   0x00000000      0x1df ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_macro   0x00000000       0x66 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_macro   0x00000000       0x28 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_macro   0x00000000       0x3b ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_macro   0x00000000       0x2d ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_macro   0x00000000       0x42 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_macro   0x00000000      0xd39 ./out/lib/ext_drivers.a(fpu_init.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .text          0x00000000        0x0 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .data          0x00000000        0x0 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .bss           0x00000000        0x0 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .text.Chip_SetupXtalClocking
+                0x00000000       0x14 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x886 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x44 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1df ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x66 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x28 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3b ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2d ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x42 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0xd39 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2bc ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x112 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x11 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2a ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2e6 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x82 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x13d ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x198 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x34 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x236 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x572 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x18a ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x88 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1b9 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1da ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1c ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x201 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xe0 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x34c ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xdc ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xc4 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x94 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xb8 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x4c ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000      0x328 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3a ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd0 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x18 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .group         0x00000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text          0x00000000        0x0 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .data          0x00000000        0x0 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .bss           0x00000000        0x0 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableMainPLL
+                0x00000000       0x1c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .rodata.periph_to_base
+                0x00000000       0x6c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_TestMainPLLMultiplier
+                0x00000000       0x48 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_FindBaseClock
+                0x00000000       0x88 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableCrystal
+                0x00000000       0x1c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetupMainPLLHz
+                0x00000000      0x128 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetupMainPLLMult
+                0x00000000       0xfc ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetDivider
+                0x00000000       0x84 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetBaseClocktHz
+                0x00000000       0x24 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetBaseClockOpts
+                0x00000000       0x80 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableBaseClock
+                0x00000000       0x3c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisableBaseClock
+                0x00000000       0x3c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_IsBaseClockEnabled
+                0x00000000       0x44 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetBaseClock
+                0x00000000       0x4c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableOpts
+                0x00000000       0x7c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_Enable
+                0x00000000       0x60 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_RTCEnable
+                0x00000000       0x28 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_Disable
+                0x00000000       0x60 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_StartPowerDown
+                0x00000000       0x20 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_ClearPowerDown
+                0x00000000       0x20 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetRate
+                0x00000000       0x88 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetEMCRate
+                0x00000000       0x48 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_SetupPLL
+                0x00000000       0x78 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnablePLL
+                0x00000000       0x34 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_DisablePLL
+                0x00000000       0x34 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetPLLStatus
+                0x00000000       0x28 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x886 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x10 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x44 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1df ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x66 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x28 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3b ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2d ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x42 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0xd39 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2bc ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x112 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x11 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2a ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x2e6 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x82 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x13d ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x198 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x34 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x58 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x236 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x572 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x18a ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x88 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1b9 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x1da ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x1c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x2e ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x201 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xe0 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x34c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xdc ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xc4 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x94 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xb8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x4c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x16 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000      0x328 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x3a ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0xd0 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x18 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x22 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_macro   0x00000000       0x40 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text          0x00000000        0x0 c:/ciaa/cygwin/usr/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/ciaa/cygwin/usr/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/ciaa/cygwin/usr/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-memset.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlashA512       0x1a000000         0x00080000         xr
+MFlashB512       0x1b000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamLoc40         0x10080000         0x0000a000         xrw
+RamAHB32         0x20000000         0x00008000         xrw
+RamAHB16         0x20008000         0x00004000         xrw
+RamAHB_ETB16     0x2000c000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+LOAD ./out/obj/vector.o
+LOAD ./out/obj/crp.o
+START GROUP
+LOAD ./out/lib/drivers_bm.a
+LOAD ./out/lib/ext_drivers.a
+LOAD ./out/lib/ext_base.a
+END GROUP
+LOAD c:/ciaa/cygwin/usr/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a
+LOAD c:/ciaa/cygwin/usr/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\librdimon.a
+START GROUP
+LOAD c:/ciaa/cygwin/usr/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libgcc.a
+LOAD c:/ciaa/cygwin/usr/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a
+LOAD c:/ciaa/cygwin/usr/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libm.a
+END GROUP
+                0x1a080000                __top_MFlashA512 = 0x1a080000
+                0x1b080000                __top_MFlashB512 = 0x1b080000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x1008a000                __top_RamLoc40 = 0x1008a000
+                0x20008000                __top_RamAHB32 = 0x20008000
+                0x2000c000                __top_RamAHB16 = 0x2000c000
+                0x20010000                __top_RamAHB_ETB16 = 0x20010000
+
+.text_Flash2    0x1b000000        0x0
+ FILL mask 0xff
+ *(.text_Flash2*)
+ *(.text_MFlashB512*)
+ *(.text.$Flash2*)
+ *(.text.$MFlashB512*)
+ *(.rodata.$Flash2*)
+ *(.rodata.$MFlashB512*)
+
+.text           0x1a000000     0x2dc4
+ FILL mask 0xff
+                0x1a000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x1a000000      0x114 ./out/obj/vector.o
+                0x1a000000                g_pfnVectors
+                0x1a000114                . = ALIGN (0x4)
+                0x1a000114                __section_table_start = .
+                0x1a000114                __data_section_table = .
+                0x1a000114        0x4 LONG 0x1a002dc4 LOADADDR (.data)
+                0x1a000118        0x4 LONG 0x10000000 ADDR (.data)
+                0x1a00011c        0x4 LONG 0x0 SIZEOF (.data)
+                0x1a000120        0x4 LONG 0x1a002dc4 LOADADDR (.data_RAM2)
+                0x1a000124        0x4 LONG 0x10080000 ADDR (.data_RAM2)
+                0x1a000128        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x1a00012c        0x4 LONG 0x1a002dc4 LOADADDR (.data_RAM3)
+                0x1a000130        0x4 LONG 0x20000000 ADDR (.data_RAM3)
+                0x1a000134        0x4 LONG 0x0 SIZEOF (.data_RAM3)
+                0x1a000138        0x4 LONG 0x1a002dc4 LOADADDR (.data_RAM4)
+                0x1a00013c        0x4 LONG 0x20008000 ADDR (.data_RAM4)
+                0x1a000140        0x4 LONG 0x0 SIZEOF (.data_RAM4)
+                0x1a000144        0x4 LONG 0x1a002dc4 LOADADDR (.data_RAM5)
+                0x1a000148        0x4 LONG 0x2000c000 ADDR (.data_RAM5)
+                0x1a00014c        0x4 LONG 0x0 SIZEOF (.data_RAM5)
+                0x1a000150                __data_section_table_end = .
+                0x1a000150                __bss_section_table = .
+                0x1a000150        0x4 LONG 0x10000000 ADDR (.bss)
+                0x1a000154        0x4 LONG 0x8 SIZEOF (.bss)
+                0x1a000158        0x4 LONG 0x10080000 ADDR (.bss_RAM2)
+                0x1a00015c        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x1a000160        0x4 LONG 0x20000000 ADDR (.bss_RAM3)
+                0x1a000164        0x4 LONG 0x0 SIZEOF (.bss_RAM3)
+                0x1a000168        0x4 LONG 0x20008000 ADDR (.bss_RAM4)
+                0x1a00016c        0x4 LONG 0x0 SIZEOF (.bss_RAM4)
+                0x1a000170        0x4 LONG 0x2000c000 ADDR (.bss_RAM5)
+                0x1a000174        0x4 LONG 0x0 SIZEOF (.bss_RAM5)
+                0x1a000178                __bss_section_table_end = .
+                0x1a000178                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x1a000178       0x54 ./out/obj/vector.o
+ .after_vectors
+                0x1a0001cc       0x7c ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+                0x1a0001cc                data_init
+                0x1a000210                bss_init
+                0x000002fc                . = 0x2fc
+ *fill*         0x1a000248       0xb4 ff
+                0x1a0002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x1a0002fc        0x4 ./out/obj/crp.o
+                0x1a0002fc                CRP_WORD
+                0x1a000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.main     0x1a000300      0x138 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+                0x1a000300                main
+ .text.rele_init
+                0x1a000438       0x68 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+                0x1a000438                rele_init
+ .text.open_drain_init
+                0x1a0004a0       0x68 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+                0x1a0004a0                open_drain_init
+ .text.rele_on  0x1a000508       0x68 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+                0x1a000508                rele_on
+ .text.rele_off
+                0x1a000570       0x68 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+                0x1a000570                rele_off
+ .text.open_drain_on
+                0x1a0005d8       0x68 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+                0x1a0005d8                open_drain_on
+ .text.open_drain_off
+                0x1a000640       0x68 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+                0x1a000640                open_drain_off
+ .text.Chip_SCU_PinMuxSet
+                0x1a0006a8       0x30 ./out/lib/drivers_bm.a(puertos.o)
+ .text.Chip_SCU_PinMux
+                0x1a0006d8       0x3c ./out/lib/drivers_bm.a(puertos.o)
+ .text.Chip_GPIO_ReadPortBit
+                0x1a000714       0x34 ./out/lib/drivers_bm.a(puertos.o)
+ .text.Chip_GPIO_SetPinOutHigh
+                0x1a000748       0x30 ./out/lib/drivers_bm.a(puertos.o)
+ .text.Chip_GPIO_SetPinOutLow
+                0x1a000778       0x30 ./out/lib/drivers_bm.a(puertos.o)
+ .text.port_pin
+                0x1a0007a8     0x19a4 ./out/lib/drivers_bm.a(puertos.o)
+                0x1a0007a8                port_pin
+ .text.Chip_GPIO_SetPinDIROutput
+                0x1a00214c       0x3c ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_SetPinDIRInput
+                0x1a002188       0x40 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .text.Chip_GPIO_SetPinDIR
+                0x1a0021c8       0x44 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+                0x1a0021c8                Chip_GPIO_SetPinDIR
+ .text.ResetISR
+                0x1a00220c       0xe4 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+                0x1a00220c                ResetISR
+ .text.SystemInit
+                0x1a0022f0       0x1c ./out/lib/ext_drivers.a(sysinit.o)
+                0x1a0022f0                SystemInit
+ .text.fpuInit  0x1a00230c       0x74 ./out/lib/ext_drivers.a(fpu_init.o)
+                0x1a00230c                fpuInit
+ .text.Chip_Clock_DisableMainPLL
+                0x1a002380       0x1c ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .text.Chip_Clock_SetupMainPLL
+                0x1a00239c       0x40 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .text.Chip_Clock_MainPLLLocked
+                0x1a0023dc       0x24 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .text.Chip_SetupCoreClock
+                0x1a002400      0x15c ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+                0x1a002400                Chip_SetupCoreClock
+ .text.Chip_SetupIrcClocking
+                0x1a00255c       0x14 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+                0x1a00255c                Chip_SetupIrcClocking
+ .text.Chip_SystemInit
+                0x1a002570        0xc ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+                0x1a002570                Chip_SystemInit
+ .text.ABS      0x1a00257c       0x24 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.pll_calc_divs
+                0x1a0025a0      0x11c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.pll_get_frac
+                0x1a0026bc      0x178 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_GetDivRate
+                0x1a002834       0x40 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .text.Chip_Clock_EnableCrystal
+                0x1a002874       0x6c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002874                Chip_Clock_EnableCrystal
+ .text.Chip_Clock_CalcMainPLLValue
+                0x1a0028e0       0xd8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a0028e0                Chip_Clock_CalcMainPLLValue
+ .text.Chip_Clock_GetMainPLLHz
+                0x1a0029b8       0xc0 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a0029b8                Chip_Clock_GetMainPLLHz
+ .text.Chip_Clock_GetDividerSource
+                0x1a002a78       0x40 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002a78                Chip_Clock_GetDividerSource
+ .text.Chip_Clock_GetDividerDivisor
+                0x1a002ab8       0x38 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002ab8                Chip_Clock_GetDividerDivisor
+ .text.Chip_Clock_GetClockInputHz
+                0x1a002af0      0x140 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002af0                Chip_Clock_GetClockInputHz
+ .text.Chip_Clock_SetBaseClock
+                0x1a002c30       0x9c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002c30                Chip_Clock_SetBaseClock
+ .text.memset   0x1a002ccc       0x9c c:/ciaa/cygwin/usr/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-memset.o)
+                0x1a002ccc                memset
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata.ExtRateIn
+                0x1a002d68        0x4 ./out/lib/ext_drivers.a(sysinit.o)
+                0x1a002d68                ExtRateIn
+ .rodata.OscRateIn
+                0x1a002d6c        0x4 ./out/lib/ext_drivers.a(sysinit.o)
+                0x1a002d6c                OscRateIn
+ .rodata.InitClkStates
+                0x1a002d70       0x48 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .rodata        0x1a002db8        0xa ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                0x1a002dc4                . = ALIGN (0x4)
+ *fill*         0x1a002dc2        0x2 ff
+
+.glue_7         0x1a002dc4        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x1a002dc4        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x1a002dc4        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x1a002dc4        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x1a002dc4        0x0
+ .iplt          0x00000000        0x0 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+
+.rel.dyn        0x1a002dc4        0x0
+ .rel.iplt      0x00000000        0x0 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x1a002dc4                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x1a002dc4                __exidx_end = .
+                0x1a002dc4                _etext = .
+
+.data_RAM2      0x10080000        0x0 load address 0x1a002dc4
+ FILL mask 0xff
+ *(.ramfunc.$RAM2)
+ *(.ramfunc.$RamLoc40)
+ *(.data.$RAM2*)
+ *(.data.$RamLoc40*)
+                0x10080000                . = ALIGN (0x4)
+
+.data_RAM3      0x20000000        0x0 load address 0x1a002dc4
+ FILL mask 0xff
+ *(.ramfunc.$RAM3)
+ *(.ramfunc.$RamAHB32)
+ *(.data.$RAM3*)
+ *(.data.$RamAHB32*)
+                0x20000000                . = ALIGN (0x4)
+
+.data_RAM4      0x20008000        0x0 load address 0x1a002dc4
+ FILL mask 0xff
+ *(.ramfunc.$RAM4)
+ *(.ramfunc.$RamAHB16)
+ *(.data.$RAM4*)
+ *(.data.$RamAHB16*)
+                0x20008000                . = ALIGN (0x4)
+
+.data_RAM5      0x2000c000        0x0 load address 0x1a002dc4
+ FILL mask 0xff
+ *(.ramfunc.$RAM5)
+ *(.ramfunc.$RamAHB_ETB16)
+ *(.data.$RAM5*)
+ *(.data.$RamAHB_ETB16*)
+                0x2000c000                . = ALIGN (0x4)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000        0x0 load address 0x1a002dc4
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.ramfunc*)
+ *(.data*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _edata = .
+
+.igot.plt       0x10000000        0x0 load address 0x1a002dc4
+ .igot.plt      0x00000000        0x0 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+
+.bss_RAM2       0x10080000        0x0
+ *(.bss.$RAM2*)
+ *(.bss.$RamLoc40*)
+                0x10080000                . = ALIGN (0x4)
+
+.bss_RAM3       0x20000000        0x0
+ *(.bss.$RAM3*)
+ *(.bss.$RamAHB32*)
+                0x20000000                . = ALIGN (0x4)
+
+.bss_RAM4       0x20008000        0x0
+ *(.bss.$RAM4*)
+ *(.bss.$RamAHB16*)
+                0x20008000                . = ALIGN (0x4)
+
+.bss_RAM5       0x2000c000        0x0
+ *(.bss.$RAM5*)
+ *(.bss.$RamAHB_ETB16*)
+                0x2000c000                . = ALIGN (0x4)
+
+.bss            0x10000000        0x8
+                0x10000000                _bss = .
+ *(.bss*)
+ .bss.audio_usb_pll_freq
+                0x10000000        0x8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ *(COMMON)
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                _ebss = .
+                0x10000008                PROVIDE (end, .)
+
+.noinit_RAM2    0x10080000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamLoc40*)
+                0x10080000                . = ALIGN (0x4)
+
+.noinit_RAM3    0x20000000        0x0
+ *(.noinit.$RAM3*)
+ *(.noinit.$RamAHB32*)
+                0x20000000                . = ALIGN (0x4)
+
+.noinit_RAM4    0x20008000        0x0
+ *(.noinit.$RAM4*)
+ *(.noinit.$RamAHB16*)
+                0x20008000                . = ALIGN (0x4)
+
+.noinit_RAM5    0x2000c000        0x0
+ *(.noinit.$RAM5*)
+ *(.noinit.$RamAHB_ETB16*)
+                0x2000c000                . = ALIGN (0x4)
+
+.noinit         0x10000008        0x0
+                0x10000008                _noinit = .
+ *(.noinit*)
+                0x10000008                . = ALIGN (0x4)
+                0x10000008                _end_noinit = .
+                0x10000008                PROVIDE (_pvHeapStart, .)
+                0x10008000                PROVIDE (_vStackTop, (__top_RamLoc32 - 0x0))
+OUTPUT(./out/bin/CIAA-FULL-ejemplo_uso_salidas_digitales.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x3988
+ .debug_info    0x00000000       0xe8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_info    0x000000e8      0x650 ./out/obj/vector.o
+ .debug_info    0x00000738       0x3f ./out/obj/crp.o
+ .debug_info    0x00000777      0x174 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_info    0x000008eb      0x4f8 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_info    0x00000de3      0x44c ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_info    0x0000122f      0x1c3 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .debug_info    0x000013f2      0x5c0 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_info    0x000019b2      0x145 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_info    0x00001af7      0x902 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_info    0x000023f9     0x158f ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+
+.debug_abbrev   0x00000000      0xadb
+ .debug_abbrev  0x00000000       0x7d ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_abbrev  0x0000007d       0xc7 ./out/obj/vector.o
+ .debug_abbrev  0x00000144       0x36 ./out/obj/crp.o
+ .debug_abbrev  0x0000017a       0x93 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_abbrev  0x0000020d      0x177 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_abbrev  0x00000384      0x111 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_abbrev  0x00000495       0xc0 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .debug_abbrev  0x00000555       0xc1 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_abbrev  0x00000616       0x84 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_abbrev  0x0000069a      0x181 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_abbrev  0x0000081b      0x2c0 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+
+.debug_aranges  0x00000000      0x390
+ .debug_aranges
+                0x00000000       0x20 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_aranges
+                0x00000020       0x68 ./out/obj/vector.o
+ .debug_aranges
+                0x00000088       0x18 ./out/obj/crp.o
+ .debug_aranges
+                0x000000a0       0x48 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_aranges
+                0x000000e8       0x48 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_aranges
+                0x00000130       0x68 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_aranges
+                0x00000198       0x30 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .debug_aranges
+                0x000001c8       0x20 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_aranges
+                0x000001e8       0x20 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_aranges
+                0x00000208       0x50 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_aranges
+                0x00000258      0x138 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+
+.debug_ranges   0x00000000      0x2d8
+ .debug_ranges  0x00000000       0x10 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_ranges  0x00000010       0x58 ./out/obj/vector.o
+ .debug_ranges  0x00000068       0x38 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_ranges  0x000000a0       0x38 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_ranges  0x000000d8       0x58 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_ranges  0x00000130       0x20 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .debug_ranges  0x00000150       0x10 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_ranges  0x00000160       0x10 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_ranges  0x00000170       0x40 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_ranges  0x000001b0      0x128 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+
+.debug_macro    0x00000000     0x5ac3
+ .debug_macro   0x00000000      0x30d ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x0000030d      0x886 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00000b93       0x22 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00000bb5       0x44 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00000bf9       0x58 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00000c51       0x22 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00000c73      0x1df ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00000e52       0x10 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00000e62       0x22 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00000e84       0x66 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00000eea       0x28 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00000f12       0x3b ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00000f4d       0x2d ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00000f7a       0x42 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00000fbc      0xd39 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00001cf5      0x2bc ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00001fb1      0x112 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x000020c3       0x11 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x000020d4       0x2a ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x000020fe       0x16 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00002114      0x2e6 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x000023fa       0x82 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x0000247c      0x13d ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x000025b9      0x198 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00002751       0x34 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00002785       0x58 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x000027dd      0x236 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00002a13      0x572 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00002f85       0x16 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00002f9b      0x18a ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00003125       0x88 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x000031ad      0x1b9 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00003366      0x1da ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00003540       0x40 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00003580       0x1c ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x0000359c       0x2e ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x000035ca       0x2e ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x000035f8       0x22 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x0000361a      0x201 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x0000381b       0xe0 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x000038fb      0x34c ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00003c47       0xdc ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00003d23       0xc4 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00003de7       0x94 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00003e7b       0xb8 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00003f33       0x4c ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00003f7f       0x16 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00003f95      0x328 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x000042bd       0x3a ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x000042f7       0xd0 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x000043c7       0x18 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x000043df       0x22 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00004401       0x40 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00004441       0x34 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x00004475       0x34 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x000044a9       0x10 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_macro   0x000044b9      0x30d ./out/obj/vector.o
+ .debug_macro   0x000047c6       0x17 ./out/obj/crp.o
+ .debug_macro   0x000047dd      0x304 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_macro   0x00004ae1      0x319 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_macro   0x00004dfa      0x2f2 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_macro   0x000050ec       0x23 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .debug_macro   0x0000510f      0x2f2 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_macro   0x00005401       0xd8 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_macro   0x000054d9      0x2f2 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_macro   0x000057cb      0x2f8 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+
+.debug_line     0x00000000     0x449e
+ .debug_line    0x00000000      0x786 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_line    0x00000786      0x755 ./out/obj/vector.o
+ .debug_line    0x00000edb       0x4a ./out/obj/crp.o
+ .debug_line    0x00000f25      0x737 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_line    0x0000165c      0xb2a ./out/lib/drivers_bm.a(puertos.o)
+ .debug_line    0x00002186      0x728 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_line    0x000028ae       0xe1 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .debug_line    0x0000298f      0x66f ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_line    0x00002ffe      0x287 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_line    0x00003285      0x749 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_line    0x000039ce      0xad0 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+
+.debug_str      0x00000000    0x15d56
+ .debug_str     0x00000000    0x14339 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+                              0x144f8 (size before relaxing)
+ .debug_str     0x00014339      0xb04 ./out/obj/vector.o
+                              0x14f8d (size before relaxing)
+ .debug_str     0x00014e3d       0x49 ./out/obj/crp.o
+                               0x24d8 (size before relaxing)
+ .debug_str     0x00014e86       0x94 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+                              0x14501 (size before relaxing)
+ .debug_str     0x00014f1a      0x144 ./out/lib/drivers_bm.a(puertos.o)
+                              0x145a2 (size before relaxing)
+ .debug_str     0x0001505e      0x13f ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+                              0x14560 (size before relaxing)
+ .debug_str     0x0001519d      0x166 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+                               0x260d (size before relaxing)
+ .debug_str     0x00015303       0x45 ./out/lib/ext_drivers.a(sysinit.o)
+                              0x14e5d (size before relaxing)
+ .debug_str     0x00015348       0xd5 ./out/lib/ext_drivers.a(fpu_init.o)
+                               0x8cf3 (size before relaxing)
+ .debug_str     0x0001541d      0x30d ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+                              0x15123 (size before relaxing)
+ .debug_str     0x0001572a      0x62c ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+                              0x156e1 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./out/obj/vector.o
+ .comment       0x00000000       0x71 ./out/obj/crp.o
+ .comment       0x00000000       0x71 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .comment       0x00000000       0x71 ./out/lib/drivers_bm.a(puertos.o)
+ .comment       0x00000000       0x71 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .comment       0x00000000       0x71 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .comment       0x00000000       0x71 ./out/lib/ext_drivers.a(sysinit.o)
+ .comment       0x00000000       0x71 ./out/lib/ext_drivers.a(fpu_init.o)
+ .comment       0x00000000       0x71 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .comment       0x00000000       0x71 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+
+.ARM.attributes
+                0x00000000       0x37
+ .ARM.attributes
+                0x00000000       0x37 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .ARM.attributes
+                0x00000037       0x37 ./out/obj/vector.o
+ .ARM.attributes
+                0x0000006e       0x37 ./out/obj/crp.o
+ .ARM.attributes
+                0x000000a5       0x37 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .ARM.attributes
+                0x000000dc       0x37 ./out/lib/drivers_bm.a(puertos.o)
+ .ARM.attributes
+                0x00000113       0x37 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .ARM.attributes
+                0x0000014a       0x37 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .ARM.attributes
+                0x00000181       0x37 ./out/lib/ext_drivers.a(sysinit.o)
+ .ARM.attributes
+                0x000001b8       0x37 ./out/lib/ext_drivers.a(fpu_init.o)
+ .ARM.attributes
+                0x000001ef       0x37 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .ARM.attributes
+                0x00000226       0x37 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .ARM.attributes
+                0x0000025d       0x32 c:/ciaa/cygwin/usr/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-memset.o)
+
+.debug_frame    0x00000000      0xc24
+ .debug_frame   0x00000000       0x30 ./out/obj/CIAA-FULL-ejemplo_uso_salidas_digitales.o
+ .debug_frame   0x00000030      0x108 ./out/obj/vector.o
+ .debug_frame   0x00000138       0xd8 ./out/lib/drivers_bm.a(CIAA_F_salidas_digitales.o)
+ .debug_frame   0x00000210      0x100 ./out/lib/drivers_bm.a(puertos.o)
+ .debug_frame   0x00000310      0x198 ./out/lib/ext_drivers.a(gpio_18xx_43xx.o)
+ .debug_frame   0x000004a8       0x80 ./out/lib/ext_drivers.a(cr_startup_lpc43xx.o)
+ .debug_frame   0x00000528       0x34 ./out/lib/ext_drivers.a(sysinit.o)
+ .debug_frame   0x0000055c       0x38 ./out/lib/ext_drivers.a(fpu_init.o)
+ .debug_frame   0x00000594       0xf4 ./out/lib/ext_drivers.a(sysinit_18xx_43xx.o)
+ .debug_frame   0x00000688      0x568 ./out/lib/ext_drivers.a(clock_18xx_43xx.o)
+ .debug_frame   0x00000bf0       0x34 c:/ciaa/cygwin/usr/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc.a(lib_a-memset.o)

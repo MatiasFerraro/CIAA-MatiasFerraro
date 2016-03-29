@@ -182,7 +182,11 @@ static SSP_ConfigFormat ssp_format;
 #define INTERRUPT_MODE      0
 #define LPC_SSP             LPC_SSP1
 #define SSP_MODE_TEST       1/*1: Master, 0: Slave */
+<<<<<<< HEAD
 #define SSP_DATA_BITS       SSP_BITS_16//(SSP_BITS_8)
+=======
+#define SSP_DATA_BITS       (SSP_BITS_8)
+>>>>>>> 274712184375b9f4cea9785f942a8561e451895b
 #define BUFFER_SIZE         8
 typedef SPI_DATA[8];
 
@@ -263,7 +267,11 @@ void  write_data(uint8_t hexa)
 }
 
 
+<<<<<<< HEAD
 void  write_command(uint32_t hexa)
+=======
+void  write_command(uint8_t hexa)
+>>>>>>> 274712184375b9f4cea9785f942a8561e451895b
 {
 	port_pin(4,9, disable, low);//cs=0
 	port_pin(4,10, disable, low);//dc=0
@@ -744,12 +752,21 @@ leds_init();
     Board_SSP_Init();
 
 
+<<<<<<< HEAD
 
 
 
     //HD_reset ();
     Delay_ms (50) ;// delay 50ms
     //lcd_initial_adafruitIIL9341();//lcd_initial();//////////Initial_ILI9340C();
+=======
+	Board_SSP_config(SSP_DATA_BITS,SSP_CLOCK_CPHA0_CPOL0 ,800000 );
+
+
+    HD_reset ();
+    Delay_ms (50) ;// delay 50ms
+    lcd_initial_adafruitIIL9341();//lcd_initial();//////////Initial_ILI9340C();
+>>>>>>> 274712184375b9f4cea9785f942a8561e451895b
     Delay_ms (300);
     // Test to enter / exit sleep
 
@@ -759,6 +776,7 @@ leds_init();
     //Delay_ms (300);
     //LCD_ExitSleep_ILI9340C ();
     //Display a black screen
+<<<<<<< HEAD
     //LCD_TEST_SingleColor (0xFF,0xE0);
     led_on(LED1);
     delay(50);
@@ -769,10 +787,22 @@ leds_init();
         Board_SSP_config(8,SSP_CLOCK_CPHA0_CPOL0 ,5000);
         write_command(0x12);
         while(1)
+=======
+    LCD_TEST_SingleColor (0xFF,0xE0);
+    led_on(LED1);
+    delay(50);
+
+        dsp_single_colour(0xF8,0x1F);//rosa
+        led_on(LED2);
+        delay(50);
+
+    while(1)
+>>>>>>> 274712184375b9f4cea9785f942a8561e451895b
   {
 
    // Disp_gradscal(); //»Ò½×
     delay(5);
+<<<<<<< HEAD
    //LCD_Sleep_ILI9340C();
 delay(500);
 	//LCD_ExitSleep_ILI9340C();
@@ -793,6 +823,28 @@ delay(500);
 
 
     //dsp_single_colour(0x00,0x1F);//azul
+=======
+   LCD_Sleep_ILI9340C();
+delay(500);
+	LCD_ExitSleep_ILI9340C();
+//# define Red 0xf800
+		//LCD_TEST_SingleColor (Red);
+		write_command(0x2C);
+
+
+
+   dsp_single_colour(0x07,0xE0);//verde
+   delay(50);
+
+
+   dsp_single_colour(0xF8,0x00);//rojo
+    delay(50);
+
+    dsp_single_colour(0x07,0xE0);//verde
+
+
+    dsp_single_colour(0x00,0x1F);//azul
+>>>>>>> 274712184375b9f4cea9785f942a8561e451895b
    delay(50);
 
 
