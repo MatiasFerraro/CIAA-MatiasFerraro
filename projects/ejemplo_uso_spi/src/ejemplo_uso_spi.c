@@ -93,18 +93,34 @@
  * \remarks This function never returns. Return value is only to avoid compiler
  *          warnings or errors.
  */
-
-#define LPC_SSP             LPC_SSP1
-
+#include "spi.h"
 
 void  write_data(uint32_t hexa)
 {
+    port_pin(4,9, disable, low);  //cs=0
+	port_pin(4,10, disable, high);//rs=1
+    write_spi_XXh(LPC_SSP,hexa);
+	port_pin(4,9, disable, high); //cs=1
+}
+void  write_command(uint16_t hexa)
+{
+    port_pin(4,9, disable, low);  //cs=0
+	port_pin(4,10, disable, low); //rs=0
+	write_spi_XXh(LPC_SSP,hexa);
+	port_pin(4,9, disable, high); //cs=1
+}
+void write_com16(uint32_t double_hexa)
+{
+    write_command(double_hexa>>8);
+	port_pin(4,9, disable, low);   //cs=0
+    port_pin(4,10, disable, high); //rs=1
+    write_command(double_hexa);
+}
 
-	port_pin(4,9, disable, low);  //cs=0
-	port_pin(4,10, disable, high);//dc=1
-    Chip_SSP_Enable(LPC_SSP);
-	Chip_SSP_WriteFrames_Blocking(LPC_SSP,&hexa, 1);
-	port_pin(4,9, disable, high);//cs=1
+void write_dat16(uint32_t double_hexa)
+{
+   write_data(double_hexa>>8);
+   write_data(double_hexa);
 }
 int main(void)
 {
@@ -114,7 +130,7 @@ int main(void)
 	 leds_init();
 	 Board_SSP_Init();
 	 Board_SSP_config(8,SSP_CLOCK_CPHA0_CPOL0 ,5000);
-	 write_data(0x84);
+	 write_com16(0x1844);
 	 while(1){
 
 	         }

@@ -9,13 +9,6 @@
 #include "chip.h"
 #include "scu_18xx_43xx.h"
 
-
-
-//uint8_t *bufferTx[BUFFER_SIZE];
-//uint8_t *bufferRx[BUFFER_SIZE];
+#define LPC_SSP             LPC_SSP1
 void Board_SSP_Init(void);
-//void Board_SSP_config(uint8_t bits, uint8_t clockMode, uint32_t bitrate);
-uint32_t Board_SSP_writeBuffer(const uint8_t *buffer, uint32_t bufferLen);
-uint32_t Board_SSP_readBuffer(uint8_t *buffer, uint32_t bufferLen);
-uint32_t Board_SSP_transfer(uint8_t *bufferTx, uint8_t *bufferRx, uint32_t bufferLen);
-//void Buffer_Init(void);
+void write_spi_XXh(uint32_t LPC_SSP_n, uint32_t XXh);
